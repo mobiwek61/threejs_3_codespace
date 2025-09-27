@@ -1,3 +1,10 @@
+
+## my notes  
+```  
+- make git repo named threejs_3b and do a codespace from it.
+- from copilot recommend run: npm create vite@latest my-app -- --template react-ts
+
+```
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
