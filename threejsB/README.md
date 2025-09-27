@@ -2,7 +2,11 @@
 ## my notes  
 ```  
 - make git repo named threejs_3b and do a codespace from it.
-- from copilot recommend run: npm create vite@latest my-app -- --template react-ts
+- from copilot recommend run: 
+npm create vite@latest three3b -- --template react-ts
+cd three3b
+npm i three
+npm run dev
 
 ```
 # React + TypeScript + Vite
