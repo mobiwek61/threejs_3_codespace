@@ -12,7 +12,12 @@ cd three3b
 npm i three
 npm run dev
 ```
-- browser window pops up with app in it. To get app in ide window, "ports" (on bottom) then mouseover it and click "open in browser". It autorefreshes!   
+- browser window pops up with app in it. To get app in ide window, "ports" (on bottom) then mouseover it and click "open in browser". It autorefreshes!  
+
+### github warning:  
+- if you do edit a file in github browser or do merge from another branch, it bricks your codespace so it can never do a commit.
+  Tried using copilot for instructions but still bricked.  
+  Only fix is create a new codespace and rename old one.
 
 **=========================================================
 =========================================================**
