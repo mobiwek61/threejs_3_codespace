@@ -1,5 +1,7 @@
+branch main after new  codespace     
+a
 ## cd to folder threejsB to begin!!!
-## my notes  2
+## my notes 
 - this is a github codespace project.
 - About auto reload. Parcel(setup by codesandbox) and Vite(setup with unix commands in codespace) are both development servers which auto reload and cause browser to refresh, BUT Parcel gets tripped up in codespace because of port forwarding. Thats why vite is used here.
 - Run below commands to setup vite in codespace (very easy)  
