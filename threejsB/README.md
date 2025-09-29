@@ -14,10 +14,9 @@ npm run dev
 ```
 - browser window pops up with app in it. To get app in ide window, "ports" (on bottom) then mouseover it and click "open in browser". It autorefreshes!   
 
-# README created by: <br>`npm create vite@latest three3b -- --template react-ts`
-
-
-
+**=========================================================
+=========================================================**
+### README created by: <br>`npm create vite@latest three3b -- --template react-ts`
 
 # React + TypeScript + Vite
 
