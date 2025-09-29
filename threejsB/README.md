@@ -1,4 +1,5 @@
 bb
+this from brick
 ## cd to folder threejsB to begin!!!
 ## my notes 
 - this is a github codespace project.
