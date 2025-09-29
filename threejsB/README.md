@@ -2,9 +2,9 @@
 ## my notes  
 - this is a github codespace project.
 - About auto reload. Parcel(setup by codesandbox) and Vite(setup with unix commands in codespace) are both development servers which auto reload and cause browser to refresh, BUT Parcel gets tripped up in codespace because of port forwarding. Thats why vite is used here.
-- Run below commands to setup vite in codespace (very easy)
-- make git repo named threejs_3b and do a codespace from it. You now have a unix box with a terminal appearing in browser window.
-- from (copilot recommended) run: 
+- Run below commands to setup vite in codespace (very easy)  
+  make git repo named threejs_3b and do a codespace from it. You now have a unix box with a terminal appearing in browser window.  
+  from (copilot recommended) run: 
 ```
 npm create vite@latest three3b -- --template react-ts
 cd three3b
