@@ -1,23 +1,36 @@
 bb
-this from brick
 ## cd to folder threejsB to begin!!!
 ## my notes 
 - this is a github codespace project.
-- About auto reload. Parcel and Vite are both development servers which auto reload and cause browser to refresh, BUT Parcel gets tripped up in codespace and browser wont reload, while its ok in codesandbox. Thats why vite is used here. Note: codespace has Parcel template for app creation while codespace gives you just a unix box. You then run below commands to setup vite (very easy)
-- make git repo named threejs_3b and do a codespace from it. You now have a unix box with a terminal appearing in browser window.
-- from (copilot recommended) run: 
+- About auto reload. Parcel(setup by codesandbox) and Vite(setup with unix commands in codespace) are both development servers which auto reload and cause browser to refresh, BUT Parcel gets tripped up in codespace because of port forwarding. Thats why vite is used here.
+- Run below commands to setup vite in codespace (very easy)  
+  make git repo named threejs_3b and do a codespace from it. You now have a unix box with a terminal appearing in browser window.  
+  from (copilot recommended) run: 
 ```
 npm create vite@latest three3b -- --template react-ts
 cd three3b
 npm i three
 npm run dev
 ```
-- browser window pops up with app in it. To get app in ide window, "ports" (on bottom) then mouseover it and click "open in browser". It autorefreshes!
+- browser window pops up with app in it. To get app in ide window, "ports" (on bottom) then mouseover it and click "open in browser". It autorefreshes!   
 
-# README created by: <br>`npm create vite@latest three3b -- --template react-ts`
+### Problem: you commit on github webpage and try to commit from codespace   
+- you get incomprehensible github error.
+- Fix: type into copilot "in github I edit a file then open a codespace and when I commit and push codespace a git error occurs". Then it says to:
+```
+git config pull.rebase false
+git pull
+```
+Then merge errors. copilot says to:   
+```Open the Conflicted File In Codespaces, open threejsB/README.md. You’ll see conflict markers like:```
+Then push the merge button, then commit+push.
+- To compare 2 commits in github webpage: 
+```https://github.com/username/repo/compare/commit1..commit2```  
+  Commit 1 and 2 are the SHA codes shown in history button on github webpage for the file.
 
-
-
+**=========================================================
+=========================================================**
+### README created by: <br>`npm create vite@latest three3b -- --template react-ts`
 
 # React + TypeScript + Vite
 
