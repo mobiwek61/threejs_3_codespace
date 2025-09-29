@@ -14,23 +14,10 @@ npm run dev
 ```
 - browser window pops up with app in it. To get app in ide window, "ports" (on bottom) then mouseover it and click "open in browser". It autorefreshes!   
 
-### Problem: you commit on github webpage and try to commit from codespace   
-- you get incomprehensible github error.
-- Fix: type into copilot "in github I edit a file then open a codespace and when I commit and push codespace a git error occurs". Then it says to:
-```
-git config pull.rebase false
-git pull
-```
-Then merge errors. copilot says to:   
-```Open the Conflicted File In Codespaces, open threejsB/README.md. You’ll see conflict markers like:```
-Then push the merge button, then commit+push.
-- To compare 2 commits in github webpage: 
-```https://github.com/username/repo/compare/commit1..commit2```  
-  Commit 1 and 2 are the SHA codes shown in history button on github webpage for the file.
+# README created by: <br>`npm create vite@latest three3b -- --template react-ts`
 
-**=========================================================
-=========================================================**
-### README created by: <br>`npm create vite@latest three3b -- --template react-ts`
+
+
 
 # React + TypeScript + Vite
 
