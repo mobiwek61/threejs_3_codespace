@@ -1,23 +1,22 @@
 bb
-this from brick
 ## cd to folder threejsB to begin!!!
 ## my notes 
 - this is a github codespace project.
-- About auto reload. Parcel and Vite are both development servers which auto reload and cause browser to refresh, BUT Parcel gets tripped up in codespace and browser wont reload, while its ok in codesandbox. Thats why vite is used here. Note: codespace has Parcel template for app creation while codespace gives you just a unix box. You then run below commands to setup vite (very easy)
-- make git repo named threejs_3b and do a codespace from it. You now have a unix box with a terminal appearing in browser window.
-- from (copilot recommended) run: 
+- About auto reload. Parcel(setup by codesandbox) and Vite(setup with unix commands in codespace) are both development servers which auto reload and cause browser to refresh, BUT Parcel gets tripped up in codespace because of port forwarding. Thats why vite is used here.
+- Run below commands to setup vite in codespace (very easy)  
+  make git repo named threejs_3b and do a codespace from it. You now have a unix box with a terminal appearing in browser window.  
+  from (copilot recommended) run: 
 ```
 npm create vite@latest three3b -- --template react-ts
 cd three3b
 npm i three
 npm run dev
 ```
-- browser window pops up with app in it. To get app in ide window, "ports" (on bottom) then mouseover it and click "open in browser". It autorefreshes!
+- browser window pops up with app in it. To get app in ide window, "ports" (on bottom) then mouseover it and click "open in browser". It autorefreshes!   
 
-# README created by: <br>`npm create vite@latest three3b -- --template react-ts`
-
-
-
+**=========================================================
+=========================================================**
+### README created by: <br>`npm create vite@latest three3b -- --template react-ts`
 
 # React + TypeScript + Vite
 
