@@ -21,6 +21,16 @@ npm run dev
   Tried using copilot for instructions but still bricked.  
   Only fix is create a new codespace and rename old one.
 
+### Comparison codespace vs codesandbox.io:
+  - codesandbox.io Better for public demos and accompanying npmjs package; does not require login or account like codespace does; easy to see public project inside your own visual studio; to modify, need to create a LOCAL branch or copy code into new project.  
+  - both have visual studio and drag-drop to project
+  - to backup project locally codesandbox has download button which omits (big) node_modules; in codespace download project zip from github page which excludes big stuff because of .gitignore   
+  - codespace 
+    - has better github stuff with graph view of changes over time. You start a codespace project FROM the github webpage, so all the annoying and confusing config is taken care of.     
+    - only has vm on server; layout looks more as if you had a real local computer.  
+  -  codesandbox  
+      - confusing dashboard leads you to fork project every time even though you dont want to.  
+      - has "sandbox" (on browser) and "devbox" (vm on server) all gets confusing.
 **=========================================================
 =========================================================**
 ### README created by: <br>`npm create vite@latest three3b -- --template react-ts`
