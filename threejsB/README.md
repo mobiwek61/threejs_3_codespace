@@ -13,7 +13,9 @@ npm i three
 npm run dev
 ```
 - browser window pops up with app in it. To get app in ide window, "ports" (on bottom) then mouseover it and click "open in browser". It autorefreshes!  
-
+### VSCode problem:
+- Every time you open an editor it **closes existing editor** window.  
+  **Fix** Menu->File->Preferences->Settings; search for "preview", then **disable "Workbench> editor:enable preview" checkbox** 
 ### github warning:  
 - if you do edit a file in github browser or do merge from another branch, it bricks your codespace so it can never do a commit.
   Tried using copilot for instructions but still bricked.  
